@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gadgeteerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a60713f9-ee05-4c52-9dd9-4ede3ffca036" newModel="false" xmlns="http://schemas.microsoft.com/dsltools/GadgeteerDSL">
+  <gadgeteerHardware>
+    <gadgeteerModelHasGadgeteerHardware Id="3fee8032-e988-4911-be47-0cdf1919e6b3">
+      <mainboard Id="30aa611a-6fcd-4289-9732-7f45f9269100" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;MainboardDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;FEZ Spider&quot; Type=&quot;GHIElectronics.Gadgeteer.FEZSpider&quot; HardwareVersion=&quot;1.0&quot; Image=&quot;C:\Program Files (x86)\GHI Electronics\GHI .NET Gadgeteer SDK\Mainboards\FEZSpider\Resources/Image.jpg&quot; BoardWidth=&quot;57.15&quot; BoardHeight=&quot;52.07&quot; MinimumGadgeteerCoreVersion=&quot;2.41.100&quot; HelpUrl=&quot;&quot;&gt;&#xD;&#xA;  &lt;ProvidedSockets&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;90&quot; Left=&quot;14.07&quot; Top=&quot;6.13&quot; Label=&quot;1&quot; ConstructorParameter=&quot;1&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;D&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;I&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;8&quot; NetId=&quot;I2CSDA&quot; /&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;9&quot; NetId=&quot;I2CSCL&quot; /&gt;&#xD;&#xA;      &lt;/SharedPinMaps&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;90&quot; Left=&quot;28.4&quot; Top=&quot;6.04&quot; Label=&quot;2&quot; ConstructorParameter=&quot;2&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;Z&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;90&quot; Left=&quot;42.91&quot; Top=&quot;6.13&quot; Label=&quot;3&quot; ConstructorParameter=&quot;3&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;H&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;I&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;8&quot; NetId=&quot;I2CSDA&quot; /&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;9&quot; NetId=&quot;I2CSCL&quot; /&gt;&#xD;&#xA;      &lt;/SharedPinMaps&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;180&quot; Left=&quot;5.72&quot; Top=&quot;19.34&quot; Label=&quot;4&quot; ConstructorParameter=&quot;4&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;I&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;K&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;U&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;X&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;8&quot; NetId=&quot;I2CSDA&quot; /&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;9&quot; NetId=&quot;I2CSCL&quot; /&gt;&#xD;&#xA;      &lt;/SharedPinMaps&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;180&quot; Left=&quot;18.64&quot; Top=&quot;19.17&quot; Label=&quot;5&quot; ConstructorParameter=&quot;5&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;F&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;0&quot; Left=&quot;38.51&quot; Top=&quot;19.34&quot; Label=&quot;6&quot; ConstructorParameter=&quot;6&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;C&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;S&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;0&quot; Left=&quot;51.35&quot; Top=&quot;19.25&quot; Label=&quot;7&quot; ConstructorParameter=&quot;7&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;E&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;180&quot; Left=&quot;5.8&quot; Top=&quot;33.25&quot; Label=&quot;8&quot; ConstructorParameter=&quot;8&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;P&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;U&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;180&quot; Left=&quot;18.55&quot; Top=&quot;33.34&quot; Label=&quot;9&quot; ConstructorParameter=&quot;9&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;A&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;O&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;S&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;U&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;0&quot; Left=&quot;38.25&quot; Top=&quot;33.34&quot; Label=&quot;10&quot; ConstructorParameter=&quot;10&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;A&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;I&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;T&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;X&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;8&quot; NetId=&quot;I2CSDA&quot; /&gt;&#xD;&#xA;        &lt;SharedPinMap SocketPin=&quot;9&quot; NetId=&quot;I2CSCL&quot; /&gt;&#xD;&#xA;      &lt;/SharedPinMaps&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;0&quot; Left=&quot;51&quot; Top=&quot;33.25&quot; Label=&quot;11&quot; ConstructorParameter=&quot;11&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;P&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;U&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;270&quot; Left=&quot;13.89&quot; Top=&quot;46.47&quot; Label=&quot;12&quot; ConstructorParameter=&quot;12&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;B&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;270&quot; Left=&quot;28.14&quot; Top=&quot;46.47&quot; Label=&quot;13&quot; ConstructorParameter=&quot;13&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;G&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;270&quot; Left=&quot;42.55&quot; Top=&quot;46.73&quot; Label=&quot;14&quot; ConstructorParameter=&quot;14&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;R&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;  &lt;/ProvidedSockets&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.Gadgeteer.FEZSpider&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.Hardware&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.Hardware.EMX&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.System&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.IO&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.Native&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.Net&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.SQLite&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.System&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.SystemUpdate&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.USBClient&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.USBHost&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.W5100.Dhcp&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.W5100&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GHIElectronics.NETMF.W5100.Http&quot; /&gt;&#xD;&#xA;  &lt;/LibrariesProvided&gt;&#xD;&#xA;&lt;/MainboardDefinition&gt;" name="FEZ Spider">
+        <sockets>
+          <gadgeteerHardwareHasSockets Id="d88d3836-c3d2-4b79-ae93-9147709bba65">
+            <socket Id="60c78102-dc70-4914-8e0a-1cf8ffe5df13" label="1" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="a9e973a6-1dbe-403a-803d-5ce6dd3aaa29">
+            <socket Id="85e6aac3-46c2-4e9b-b48d-ee6c7f448149" label="2" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="bb1efb1c-b751-43ed-a8a9-40b6685432c4">
+            <socket Id="6ec948a3-96bf-467f-b8a9-e67a0d56ca5e" label="3" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="d87d5a12-16d5-453e-842b-3b25bf400d2f">
+            <socket Id="f9066e9d-c3ea-4aa6-adc4-004ddd504349" label="4" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="e0dbbd57-2226-4f01-8226-3a9560a439c3">
+            <socket Id="7ee7e55b-5d29-43ca-a33a-a9ba48892089" label="5" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="12a07a3b-5b36-4286-bca9-b81617c7694d">
+            <socket Id="19c050d2-c1b7-4c23-b3ee-9ab7dc59756c" label="6" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="573bde50-01b7-4cb7-8e46-02f25df979c5">
+            <socket Id="73e93071-393c-43fd-8c84-5040344fe754" label="7" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="da3fc6f2-1b89-459f-b59b-2d1db08fcab7">
+            <socket Id="9f4d9578-fcbd-4068-8cd9-1aaa08d3403f" label="8" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="4e93420b-22cf-4e95-94ca-b5d517d3305e">
+            <socket Id="4c85b287-9e34-40e8-ab0a-409e4c343921" label="9" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="fc74d172-f7ed-4ffd-924e-070dee56f29d">
+            <socket Id="a8e74593-0823-40e7-9775-abd5a313c06d" label="10" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="89e29ad3-0da6-4443-ac08-ac04aa367802">
+            <socket Id="e4ee5449-39a4-4e6c-b6b7-ad9f42e385d7" label="11" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="70475de4-5c1b-4fbf-8a90-5d2641e5b5fe">
+            <socket Id="98a762c8-16c1-4023-a5bf-6ea92064e575" label="12" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="db94a40c-3e75-4994-ba1b-89cfbbb313b3">
+            <socket Id="a6ef7afd-05bf-4153-8654-5d825e1cef3b" label="13" />
+          </gadgeteerHardwareHasSockets>
+          <gadgeteerHardwareHasSockets Id="8fdecd82-a7e0-46ec-97db-bd0a288ddc28">
+            <socket Id="b31c1797-8cc3-4ffe-ab26-c89e633a6e3c" label="14" />
+          </gadgeteerHardwareHasSockets>
+        </sockets>
+      </mainboard>
+    </gadgeteerModelHasGadgeteerHardware>
+    <gadgeteerModelHasGadgeteerHardware Id="f23a97e2-67c3-4397-b427-fbb890b4ceab">
+      <module Id="3951eb71-bd92-4362-b256-4dfa712dffc8" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ModuleDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;UsbClientDP&quot; Type=&quot;Gadgeteer.Modules.GHIElectronics.UsbClientDP&quot; HardwareVersion=&quot;1.2&quot; Image=&quot;C:\Program Files (x86)\GHI Electronics\GHI .NET Gadgeteer SDK\Modules\UsbClientDP\Resources\Image.jpg&quot; BoardWidth=&quot;42&quot; BoardHeight=&quot;37&quot; MinimumGadgeteerCoreVersion=&quot;2.41.100&quot; HelpUrl=&quot;&quot; UniqueId=&quot;0c3b5b0b-10f9-4df9-8442-3e105d18d83c&quot; Manufacturer=&quot;GHI Electronics&quot; Description=&quot;A USB Client Dual Power module which can be plugged into either USB or 7V-30V DC (or both)&quot; InstanceName=&quot;usbClient&quot; ModuleSuppliesPower=&quot;true&quot;&gt;&#xD;&#xA;  &lt;ProvidedSockets /&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GTM.GHIElectronics.UsbClientDP&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided /&gt;&#xD;&#xA;  &lt;Sockets&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;38.14&quot; Top=&quot;18.14&quot; TypesLabel=&quot;D&quot; ConstructorOrder=&quot;1&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;D&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;7&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;  &lt;/Sockets&gt;&#xD;&#xA;  &lt;ExtraLibrariesRequired /&gt;&#xD;&#xA;&lt;/ModuleDefinition&gt;" name="usbClient" moduleType="Gadgeteer.Modules.GHIElectronics.UsbClientDP" moduleDefinitionId="0c3b5b0b-10f9-4df9-8442-3e105d18d83c">
+        <socketUses>
+          <moduleHasSocketUses Id="a61127e0-18c4-4fbe-b4cc-839d36945708">
+            <socketUse Id="6d4b1413-d183-4877-89eb-54c5af9d3be5" label="D">
+              <socket>
+                <socketUseReferencesSocket Id="6b6e41e6-36ee-46cf-be06-22299dc74b07">
+                  <socketMoniker Id="60c78102-dc70-4914-8e0a-1cf8ffe5df13" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
+          </moduleHasSocketUses>
+        </socketUses>
+      </module>
+    </gadgeteerModelHasGadgeteerHardware>
+    <gadgeteerModelHasGadgeteerHardware Id="e9c0e95d-5129-443e-b51e-0b1d5ae39796">
+      <module Id="e1ab9138-2e5b-450f-b784-5071cd85b0d2" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ModuleDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;Display_T35&quot; Type=&quot;Gadgeteer.Modules.GHIElectronics.Display_T35&quot; HardwareVersion=&quot;1.2&quot; Image=&quot;C:\Program Files (x86)\GHI Electronics\GHI .NET Gadgeteer SDK\Modules\Display_T35\Resources\Image.jpg&quot; BoardWidth=&quot;78&quot; BoardHeight=&quot;83&quot; MinimumGadgeteerCoreVersion=&quot;2.41.100&quot; HelpUrl=&quot;&quot; UniqueId=&quot;792cb17d-a642-4d07-834d-02d9c8ed7cd3&quot; Manufacturer=&quot;GHI Electronics&quot; Description=&quot;A 3.5 inch, touch capable LCD display module&quot; InstanceName=&quot;display&quot; ModuleSuppliesPower=&quot;false&quot;&gt;&#xD;&#xA;  &lt;ProvidedSockets /&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GTM.GHIElectronics.Display_T35&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided /&gt;&#xD;&#xA;  &lt;Sockets&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;72.88&quot; Top=&quot;50.07&quot; TypesLabel=&quot;R&quot; ConstructorOrder=&quot;1&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;R&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;7&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;8&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;9&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;72.88&quot; Top=&quot;35.62&quot; TypesLabel=&quot;G&quot; ConstructorOrder=&quot;2&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;G&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;7&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;8&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;9&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;72.88&quot; Top=&quot;21.3&quot; TypesLabel=&quot;B&quot; ConstructorOrder=&quot;3&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;B&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;7&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;8&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;9&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;72.88&quot; Top=&quot;64.51&quot; TypesLabel=&quot;T&quot; ConstructorOrder=&quot;4&quot; Optional=&quot;true&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;T&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;  &lt;/Sockets&gt;&#xD;&#xA;  &lt;ExtraLibrariesRequired /&gt;&#xD;&#xA;&lt;/ModuleDefinition&gt;" name="display" moduleType="Gadgeteer.Modules.GHIElectronics.Display_T35" moduleDefinitionId="792cb17d-a642-4d07-834d-02d9c8ed7cd3">
+        <socketUses>
+          <moduleHasSocketUses Id="b76b78ea-617f-4791-9b53-069ba0e0e20a">
+            <socketUse Id="0eafa26b-87d4-415a-be9c-ab53843ad078" label="R">
+              <socket>
+                <socketUseReferencesSocket Id="29522530-74cb-4c03-8e74-ac3a592dc08c">
+                  <socketMoniker Id="b31c1797-8cc3-4ffe-ab26-c89e633a6e3c" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
+          </moduleHasSocketUses>
+          <moduleHasSocketUses Id="4112dc46-0807-476b-94ea-5c9dff53cd8d">
+            <socketUse Id="ede0e54a-cfef-42bb-9097-ab7a9231d71e" label="G">
+              <socket>
+                <socketUseReferencesSocket Id="4d7c7c54-d6af-4b40-b90c-600bc5f9f4f3">
+                  <socketMoniker Id="a6ef7afd-05bf-4153-8654-5d825e1cef3b" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
+          </moduleHasSocketUses>
+          <moduleHasSocketUses Id="d6a204dc-f916-4aa5-9c38-8a318eae6f94">
+            <socketUse Id="c6abf197-a2e5-442a-b0a2-af21de3281c7" label="B">
+              <socket>
+                <socketUseReferencesSocket Id="e4cf823d-5cb0-45d2-bbee-4aa3a4b4de5b">
+                  <socketMoniker Id="98a762c8-16c1-4023-a5bf-6ea92064e575" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
+          </moduleHasSocketUses>
+          <moduleHasSocketUses Id="12ef76e9-d111-4427-87dc-be9f1eabc176">
+            <socketUse Id="6a55f7a9-e860-4587-ae7d-d3bfef182b11" label="T">
+              <socket>
+                <socketUseReferencesSocket Id="65366664-806b-46cc-9f54-a4f4099f8af9">
+                  <socketMoniker Id="a8e74593-0823-40e7-9775-abd5a313c06d" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
+          </moduleHasSocketUses>
+        </socketUses>
+      </module>
+    </gadgeteerModelHasGadgeteerHardware>
+    <gadgeteerModelHasGadgeteerHardware Id="56f8222c-a841-4098-b176-d1b959890cd9">
+      <module Id="0ad61b7f-f7ef-4a3c-a669-395625d329c8" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ModuleDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;MulticolorLed&quot; Type=&quot;Gadgeteer.Modules.GHIElectronics.MulticolorLed&quot; HardwareVersion=&quot;1.1&quot; Image=&quot;C:\Program Files (x86)\GHI Electronics\GHI .NET Gadgeteer SDK\Modules\MulticolorLed\Resources\Image.jpg&quot; BoardWidth=&quot;21&quot; BoardHeight=&quot;22&quot; MinimumGadgeteerCoreVersion=&quot;2.41.100&quot; HelpUrl=&quot;&quot; UniqueId=&quot;d480cb58-d2b1-433f-a5f6-e79f4b6eed33&quot; Manufacturer=&quot;GHI Electronics&quot; Description=&quot;A Multicolor LED module supporting blinking and fading&quot; InstanceName=&quot;led&quot; ModuleSuppliesPower=&quot;false&quot;&gt;&#xD;&#xA;  &lt;ProvidedSockets&gt;&#xD;&#xA;    &lt;ProvidedSocket Orientation=&quot;0&quot; Left=&quot;16.98&quot; Top=&quot;13.54&quot; Label=&quot;*&quot; ConstructorParameter=&quot;DaisyLinkSocketNumber&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;*&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;SharedPinMaps /&gt;&#xD;&#xA;    &lt;/ProvidedSocket&gt;&#xD;&#xA;  &lt;/ProvidedSockets&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.1&quot; Name=&quot;GTM.GHIElectronics.MulticolorLed&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided /&gt;&#xD;&#xA;  &lt;Sockets&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;0&quot; Left=&quot;4.61&quot; Top=&quot;13.15&quot; TypesLabel=&quot;XY*&quot; ConstructorOrder=&quot;1&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;X&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;Y&lt;/Type&gt;&#xD;&#xA;        &lt;Type&gt;*&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;true&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;true&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;  &lt;/Sockets&gt;&#xD;&#xA;  &lt;ExtraLibrariesRequired /&gt;&#xD;&#xA;&lt;/ModuleDefinition&gt;" name="led" moduleType="Gadgeteer.Modules.GHIElectronics.MulticolorLed" moduleDefinitionId="d480cb58-d2b1-433f-a5f6-e79f4b6eed33">
+        <sockets>
+          <gadgeteerHardwareHasSockets Id="92b15e03-b4c5-4b77-8c52-1cefd4fad152">
+            <socket Id="5b825e53-cd53-4d67-962f-c368f712983b" label="*" />
+          </gadgeteerHardwareHasSockets>
+        </sockets>
+        <socketUses>
+          <moduleHasSocketUses Id="6773601c-0eab-4bc2-a902-101bbd231ddc">
+            <socketUse Id="4bc24eee-08fe-49da-9926-5221b82c184b" label="XY*">
+              <socket>
+                <socketUseReferencesSocket Id="57525df6-567e-49b5-842e-18703da68c5b">
+                  <socketMoniker Id="e4ee5449-39a4-4e6c-b6b7-ad9f42e385d7" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
+          </moduleHasSocketUses>
+        </socketUses>
+      </module>
+    </gadgeteerModelHasGadgeteerHardware>
+  </gadgeteerHardware>
+  <comments>
+    <gadgeteerModelHasComments Id="015f5f71-0a92-42b6-a0a5-5036d5338313">
+      <comment Id="2c987750-861f-43c0-b26a-01d053a9fecb" text="Tip: To have the designer connect all modules for you, right-click the diagram, and then click 'Connect all modules'." />
+    </gadgeteerModelHasComments>
+  </comments>
+</gadgeteerModel>
